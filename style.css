@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+  /* overflow:visible; */
+  text-align: center;
+  /* this set everything center if width is not set to any body */
+  font-family: 'Merriweather', serif;
+}
+
+.top-container {
+  background-color: #43919B;
+  position: relative;
+  padding-top: 100px;
+  /* its position is set by accd to its own position cause it is set relative */
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  /* width: 10px;  */
+  /* margin:0 auto 0 auto; */
+  /* if width is set then you have to use this type of margin value to make center */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.middle-container {}
+
+.bottom-container {}
+
+.web {
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+/* .p{
+  position:relative; /*here relative means we can chabge the positin and left 30px means it pushes from left side with 30px*/
+/* right:20px;
+}  */
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+  /*here bottom cloud automatically goes to upside by setting absolute when it was with mountain */
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+  /* its position is set by accd to its parent tag cause it is set absolute */
+}
+hr{
+  border: 1px dashed;
+  width:5%;
+  position:relative;
+  top:5px;
+  bottom:10px;
+
+}
